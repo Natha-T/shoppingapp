@@ -71,11 +71,10 @@ function Home() {
   
      
               <div className="App w-full h-screen">
-                <button className='p-2 font-semibold rounded-full bg-blue-400 text-coolGray-100' onClick={handleSignIn}>Sign In</button>
-                <button className='p-2 font-semibold rounded-full bg-blue-400 text-coolGray-100' onClick={handleSignOut}>Sign Out</button>
+               
      <Navbar />
      <Hero/>
-     <Banner/>
+   
  
 <Items  />
      <Footer/>
