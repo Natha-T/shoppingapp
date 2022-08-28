@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function Footer() {
     return (
         <section className="bg-white">
@@ -8,6 +9,7 @@ function Footer() {
                 <div className="px-5 py-2">
                     <a href="#" className="text-base leading-6 text-gray-500 hover:text-gray-900">
                        Home
+                     
                     </a>
                 </div>
                 <div className="px-5 py-2">

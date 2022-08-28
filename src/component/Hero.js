@@ -1,5 +1,5 @@
-import React from 'react'
-
+import React from 'react';
+import fafasquad from '../img/fafasquad.png';
 function Hero() {
     return (
         
@@ -27,13 +27,13 @@ function Hero() {
             </div>
             <div className="grid grid-cols-5 grid-rows-4 gap-4 md:w-5/12 lg:w-6/12">
                 <div className="col-span-2 row-span-4">
-                    <img src="images/products/kushagra.webp" className="rounded-full" width="640" height="960" alt="shoes" loading="lazy"/>
+                    <img src={fafasquad} className="rounded-full" width="640" height="960" alt="shoes" loading="lazy"/>
                 </div>
                 <div className="col-span-2 row-span-2">
-                    <img src="images/products/iman.webp" className="w-full h-full object-cover object-top rounded-xl" width="640" height="640" alt="shoe" loading="lazy"/>
+                    <img src={fafasquad} className="w-full h-full object-cover object-top rounded-xl" width="640" height="640" alt="shoe" loading="lazy"/>
                 </div>
                 <div className="col-span-3 row-span-3">
-                    <img src="images/products/daniel.webp" className="w-full h-full object-cover object-top rounded-xl" width="640" height="427" alt="shoes" loading="lazy"/>
+                    <img src={fafasquad} className="w-full h-full object-cover object-top rounded-xl" width="640" height="427" alt="shoes" loading="lazy"/>
                 </div>
             </div>
         </div>
